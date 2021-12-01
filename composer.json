@@ -1,0 +1,22 @@
+{
+    "name": "lumaserv/paysafecard",
+    "description": "paysafecard sopg client",
+    "type": "library",
+    "version": "1.2.1",
+    "require": {
+        "php": ">=5.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jan",
+            "email": "j.waldecker@lumaserv.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Paysafecard\\": "src/"
+        }
+    }
+}
